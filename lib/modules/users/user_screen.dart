@@ -1,17 +1,10 @@
+import 'package:firstproject/models/user/user_model.dart';
 import 'package:flutter/material.dart';
-
-class Usermodel {
-  final int id;
-  final String name;
-  final String phone;
-  final String age;
-  Usermodel({required this.id,required this.name,required this.phone,required this.age});
-}
 
 // ignore: must_be_immutable
 class Userscreen extends StatelessWidget {
   List<Usermodel>users=[
-    Usermodel(id: 1, name: 'mahmoud gamal', phone: '01064162607',age: '22'),
+     Usermodel(id: 1, name: 'mahmoud gamal', phone: '01064162607',age: '22'),
      Usermodel(id: 2, name: 'ahmed gamal', phone: '0115478/5202',age: '30'),
       Usermodel(id: 3, name: ' ahmed ali', phone: '01254789654',age: '23'),
        Usermodel(id: 4, name: 'ali mahmoud', phone: '01154587251',age: '29'),
